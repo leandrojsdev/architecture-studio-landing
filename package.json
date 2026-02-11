@@ -1,0 +1,29 @@
+{
+  "name": "architecture-studio-landing",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://leandrojsdev.github.io/architecture-studio-landing",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "8.15.12",
+    "framer-motion": "10.16.4",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
